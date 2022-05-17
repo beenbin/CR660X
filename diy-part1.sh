@@ -21,4 +21,4 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git sirpdboy https://github.com/sirpdboy/netspeedtest' feeds.conf.default
-sed -i '$a src-git sirpdboy https://github.com/sirpdboy/luci-theme-opentopd' feeds.conf.default
+
