@@ -11,8 +11,9 @@
 #
 
 # Uncomment a feed source
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 sed -i '68s/||SOFT_FLOAT//' ./feeds/packages/lang/node/Makefile
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+
 #sudo apt install libssl1.0-dev #降级OPENSSL
 
 # Add a feed source
