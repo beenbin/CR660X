@@ -35,7 +35,8 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
+    container: 16.16.0
 
     steps:
     - name: Checkout
