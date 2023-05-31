@@ -23,7 +23,6 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
-    container: node：16.16.0
 
     steps:
 
@@ -35,7 +34,7 @@ jobs:
 
     - name: Compare Commit Hash
       id: cacheHash
-      uses: actions/cache@v3
+      uses: actions/cache@v2
       with:
         path: .commitHash
         key: HEAD-${{ steps.getHash.outputs.commitHash }}
